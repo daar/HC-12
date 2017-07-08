@@ -1,6 +1,4 @@
-//HC-12 Useful Functions and Operators Send
-//Autor Tom Heylen tomtomheylen.com
-
+//based on code from: Tom Heylen
 
 #include <SoftwareSerial.h>
 
