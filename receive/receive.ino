@@ -29,7 +29,7 @@ void setup() {
 
   //test HC-12
   Serial.print("HC-12 available... ");
-  HC12.write("AT");
+  HC12.write("AT+DEFAULT");
   delay(1000);
   while (HC12.available() > 0) {
     Serial.write(HC12.read());
