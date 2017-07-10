@@ -8,4 +8,4 @@ The above schematic shows the transmitter mode setup. To enter the AT command mo
 one should connect the SET pin to ground.
 
 An important future improvement to this code is to implement a proper communication
-protocol such as ![XMODEM](http://en.wikipedia.org/wiki/XMODEM) or ![HDLC](http://en.wikipedia.org/wiki/High-Level_Data_Link_Control).
+protocol such as [XMODEM](http://en.wikipedia.org/wiki/XMODEM) or [HDLC](http://en.wikipedia.org/wiki/High-Level_Data_Link_Control).
