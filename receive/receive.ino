@@ -45,6 +45,12 @@ void loop() {
 
     Serial.print(millis());
     Serial.print(" RF: ");
-    Serial.println(HC12.read());
+
+    while (HC12.available() > 0) {
+      
+      Serial.print(char(HC12.read()));
+    }
   }
+
+  delay(100);
 }

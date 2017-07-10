@@ -46,7 +46,7 @@ void loop() {
 
   digitalWrite(LED_BUILTIN, state);
 
-  HC12.println("test123");
+  HC12.println("test123.");
   delay(1000);
 
   state = not state;
