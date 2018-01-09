@@ -1,5 +1,5 @@
 # HC-12
-HC-12 library for Arduino
+HC-12 sketches for Arduino
 
 The HC-12 modules should be connected in the following way. Image is from Tom Heylen.
 ![alt text](./doc/HC-12_schematic.jpg)
